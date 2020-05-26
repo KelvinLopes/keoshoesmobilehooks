@@ -1,14 +1,14 @@
 # keoshoesmobile 👟🥾👠
 
-7º Desafio Rocketseat GoStack 9, a versão mobile do KeoShoes desenvolvida em React Native
+8º Desafio Rocketseat GoStack 9, a versão mobile do KeoShoes desenvolvida em React Native e agora adotando a api react-hooks deixando as classes. O app fica com os mesmos recursos da versão anterior, porém com um código mais limpo e menos verboso.
 
 <p>
- Um mini projeto de loja online de calçados que usa JSON server para guardar os dados dos produtos,
- obs: ela não deve ser usada em ambiente de produção, mas sim uma api real.
+ Trata se de um mini projeto de loja online de calçados que usa JSON server para guardar os dados dos produtos.
+ Obs: ela não deve ser usada em ambiente de produção, mas sim uma api real.
  <p> 
  
  <p>
-  Nesse app, você pode visualizar a descrição de cada produto, adiconar no carinho, mudar a quantidade dos produtos e excluir items do carrinho.
+  Nesse app, você pode visualizar a descrição de cada produto, adiconar no carrinho, mudar a quantidade dos produtos e excluir os items dele.
  </p>
  
  <p>
@@ -38,6 +38,7 @@
 * Reactotron Redux
 * Reactotron Redux Saga
 * React Navigation 5
+* React Hooks
 
 ### Dev dependences 🤝  🤜🤛
 * Eslint 
