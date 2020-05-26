@@ -1,9 +1,11 @@
 import React from 'react';
-import { connect } from 'react-redux';
+import { useSelector } from 'react-redux';
 import {  TextAmountCart } from './style';
 
 
-function TextCartSize ({ cartSize }) {
+export default function TextCartSize ({ cartSize }) {
+
+  const cartSize = useSelector( state => state.cart.length)
 
   return (
     <>
@@ -11,10 +13,3 @@ function TextCartSize ({ cartSize }) {
     </>
   );
 }
-
-
-export default connect(
-  state => ({
-    cartSize: state.cart.length
-  })
-)(TextCartSize);
